@@ -360,10 +360,8 @@ button2.MouseButton1Click:Connect(function()
 
 	character:WaitForChild("Humanoid"):UnequipTools()
 
-	local coilCombo = waitForTool("Coil Combo")
 	local webSlinger = waitForTool("Web Slinger")
 	webSlinger.Parent = character
-	coilCombo.Parent = character
 
 	local ohCFrame1 = target.Character and target.Character:FindFirstChild("HumanoidRootPart") and target.Character.HumanoidRootPart.CFrame
 	local ohInstance2 = target.Character and target.Character:FindFirstChild("HumanoidRootPart")
